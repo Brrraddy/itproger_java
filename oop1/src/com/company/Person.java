@@ -12,9 +12,12 @@ public class Person {
 
     }
 
-    public Person  (String n){
+    public Person  (int h, String n){
+       height = h;
        name = n;
     }
 
-
+    public Person (String n){
+        name = n;
+    }
 }
